@@ -381,6 +381,6 @@ INSERT INTO stock_movements (product_id, quantity, movement_type, notes) VALUES
 
 -- Insert sample users
 INSERT INTO users (username, email, password, role) VALUES
-('admin', 'admin@dentalclinic.com', 'hashed_password_here', 'admin'),
-('staff1', 'staff@dentalclinic.com', 'hashed_password_here', 'staff'),
-('hygienist', 'hygienist@dentalclinic.com', 'hashed_password_here', 'staff');
+('admin', 'admin@dentalclinic.com', '$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin'),
+('staff1', 'staff@dentalclinic.com', '$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'staff'),
+('hygienist', 'hygienist@dentalclinic.com', '$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'staff');

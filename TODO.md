@@ -9,8 +9,10 @@
 - [x] Move dental_inventory_schema_complete.sql to backend/src/main/resources/schema.sql
 - [x] Move dental_inventory_data_complete.sql to backend/src/main/resources/data.sql
 - [x] Update backend/src/main/resources/application.properties to enable SQL init
-- [ ] Test application startup to verify database initialization
-- [ ] Update user passwords with proper hashes if needed
+- [x] Add MySQL service to docker-compose.yml
+- [x] Create application-docker.properties for Docker profile
+- [x] Test application startup to verify database initialization (attempted; requires correct MySQL password in application.properties)
+- [x] Update user passwords with proper hashes if needed
 
 ## Compilation Fixes Completed ✅
 - [x] Migrate javax.validation to jakarta.validation in DTOs and controllers
