@@ -4,10 +4,10 @@ services:
     image: mysql:8.0
     container_name: dental_inventory_mysql
     environment:
-      MYSQL_ROOT_PASSWORD: vishu@311
+      MYSQL_ROOT_PASSWORD: your_password
       MYSQL_DATABASE: dental_inventory
       MYSQL_USER: localhost
-      MYSQL_PASSWORD: vishu@311
+      MYSQL_PASSWORD: your_password
     ports:
       - "3306:3306"
     volumes:
