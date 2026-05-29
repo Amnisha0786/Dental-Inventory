@@ -18,19 +18,14 @@ This project demonstrates end-to-end full-stack development using **Spring Boot 
 
 ## 🖼️ Screenshots
 
+## Landing Page
+<img width="900" height="440" alt="image" src="https://github.com/user-attachments/assets/1845ab4e-a256-4f41-87eb-156af458bf27" />
+
 ## Dashboard
-<img width="975" height="867" alt="image" src="https://github.com/user-attachments/assets/effc6893-fc71-4116-8be4-bcf7f6743752" />
+<img width="900" height="440" alt="image" src="https://github.com/user-attachments/assets/b0699207-e74e-4beb-b963-671609049e5a" />
 
-## Notifications
-<img width="975" height="617" alt="image" src="https://github.com/user-attachments/assets/eb9140b3-41ce-4474-b44b-327c30f621b9" />
-
-## Ai insights
-<img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/e28c4f3c-2a01-4515-a096-6b4aa7b27e68" />
-
-## Data Analytics
-<img width="975" height="896" alt="image" src="https://github.com/user-attachments/assets/fb90f84c-8a54-41a6-bcb6-5f89031bf467" />
-
-
+## Analytics
+<img width="900" height="436" alt="image" src="https://github.com/user-attachments/assets/8c61d728-dd9a-4314-8dd0-c145ce9893ae" />
 
 
 
