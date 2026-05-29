@@ -53,13 +53,13 @@ This project demonstrates end-to-end full-stack development using **Spring Boot 
 ## ⚙️ How to Run
 
 ### Backend
-```bash
+
 cd spring-boot-app
 ./mvnw spring-boot:run
 
 Runs on: http://localhost:8080
 
-Frontend
+### Frontend
 cd frontend
 npm install
 npm start
@@ -70,6 +70,9 @@ Run with Docker (Recommended)
 
 docker-compose up --build
 
-🔗 API Endpoints
+
+## 🔗 API Endpoints
 GET / → Welcome message
 GET /api/hello → Test API response
+
+
