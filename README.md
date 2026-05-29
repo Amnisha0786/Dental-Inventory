@@ -1,6 +1,6 @@
 # 🦷 Dental Inventory Management System (Full Stack + AI Chatbot)
 
-A full-stack Dental Inventory Management System built as part of a 6-member team during my Master’s program. The system streamlines dental inventory tracking through a modern web interface, robust backend APIs, and an integrated AI chatbot for user assistance and interaction.
+A full-stack Dental Inventory Management System built as part of a 6-member team during my Master’s program. The system streamlines dental inventory tracking through a modern web interface, robust backend APIs, and an integrated AI insights for user assistance.
 
 This project demonstrates end-to-end full-stack development using **Spring Boot (backend)** and **React (frontend)**, along with Docker-based deployment support.
 
