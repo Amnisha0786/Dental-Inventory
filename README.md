@@ -73,6 +73,7 @@ docker-compose up --build
 
 ## 🔗 API Endpoints
 GET / → Welcome message
+
 GET /api/hello → Test API response
 
 
