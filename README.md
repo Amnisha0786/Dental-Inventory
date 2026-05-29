@@ -16,6 +16,24 @@ This project demonstrates end-to-end full-stack development using **Spring Boot 
 
 ---
 
+## 🖼️ Screenshots
+
+## Dashboard
+<img width="975" height="867" alt="image" src="https://github.com/user-attachments/assets/effc6893-fc71-4116-8be4-bcf7f6743752" />
+
+## Notifications
+<img width="975" height="617" alt="image" src="https://github.com/user-attachments/assets/eb9140b3-41ce-4474-b44b-327c30f621b9" />
+
+## Ai insights
+<img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/e28c4f3c-2a01-4515-a096-6b4aa7b27e68" />
+
+## Data Analytics
+<img width="975" height="896" alt="image" src="https://github.com/user-attachments/assets/fb90f84c-8a54-41a6-bcb6-5f89031bf467" />
+
+
+
+
+
 ## 👨‍💻 My Contribution
 - Developed both **frontend and backend components**
 - Designed and implemented **Spring Boot REST APIs**
