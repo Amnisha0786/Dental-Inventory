@@ -8,51 +8,52 @@ This project demonstrates end-to-end full-stack development using Spring Boot (b
 🚀 Key Features
 
 Dental inventory tracking and management system
+
 RESTful APIs for seamless frontend-backend communication
+
 Modern, responsive React-based user interface
+
 AI chatbot integration for real-time user support
+
 CORS-enabled backend for secure frontend communication
+
 Dockerized deployment using Docker Compose
 
 
 👨‍💻 My Contribution
 
 Developed both frontend and backend components
+
 Designed and implemented Spring Boot REST APIs
+
 Built responsive React UI with modern design practices
+
 Integrated AI-powered chatbot to enhance user experience
+
 Collaborated in an Agile team of 6 members
 
 
 🏗️ Tech Stack
 
 Backend
+
 Spring Boot 3.2.0
+
 Java 17
-Maven
+
 REST APIs
+
 CORS Configuration
-Frontend
-React 18
+
+React
+
 JavaScript (ES6+)
-Hooks
+
 Fetch API
-Responsive UI (Flexbox/Grid)
-DevOps / Deployment
+
 Docker
-Docker Compose
+
 Nginx (production build)
-Multi-stage builds
-
-
-📁 Project Structure
-
-spring-boot-app/
-├── src/                    # Spring Boot backend
-│   └── main/java/com/example/springbootapp/
-├── frontend/              # React frontend
-├── pom.xml               # Maven configuration
-└── README.md
 
 
 ⚙️ How to Run
@@ -60,6 +61,7 @@ spring-boot-app/
 Backend
 
 cd spring-boot-app
+
 ./mvnw spring-boot:run
 
 Runs on: http://localhost:8080
@@ -67,7 +69,9 @@ Runs on: http://localhost:8080
 Frontend
 
 cd frontend
+
 npm install
+
 npm start
 
 Runs on: http://localhost:3000
@@ -80,13 +84,18 @@ docker-compose up --build
 🔗 API Endpoints
 
 GET / → Welcome message
+
 GET /api/hello → Test API response
 
 
 🧠 Highlights
 
 Full-stack integration of React and Spring Boot
+
 Real-world API communication with CORS handling
+
 AI chatbot integration for improved usability
+
 Containerized deployment using Docker Compose
+
 Team-based agile development experience
