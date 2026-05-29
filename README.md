@@ -1,163 +1,92 @@
-# Spring Boot + React Full Stack Application
+🦷 Dental Inventory Management System (Full Stack + AI Chatbot)
 
-This is a full-stack application with a Spring Boot backend and a React frontend that demonstrates how to connect a React frontend to a Spring Boot REST API.
+A full-stack Dental Inventory Management System built as part of a 6-member team during my Master’s program. The system streamlines dental inventory tracking through a modern web interface, robust backend APIs, and an integrated AI chatbot for user assistance and interaction.
 
-## Project Structure
+This project demonstrates end-to-end full-stack development using Spring Boot (backend) and React (frontend), along with Docker-based deployment support.
 
-```
+
+🚀 Key Features
+
+Dental inventory tracking and management system
+RESTful APIs for seamless frontend-backend communication
+Modern, responsive React-based user interface
+AI chatbot integration for real-time user support
+CORS-enabled backend for secure frontend communication
+Dockerized deployment using Docker Compose
+
+
+👨‍💻 My Contribution
+
+Developed both frontend and backend components
+Designed and implemented Spring Boot REST APIs
+Built responsive React UI with modern design practices
+Integrated AI-powered chatbot to enhance user experience
+Collaborated in an Agile team of 6 members
+
+
+🏗️ Tech Stack
+
+Backend
+Spring Boot 3.2.0
+Java 17
+Maven
+REST APIs
+CORS Configuration
+Frontend
+React 18
+JavaScript (ES6+)
+Hooks
+Fetch API
+Responsive UI (Flexbox/Grid)
+DevOps / Deployment
+Docker
+Docker Compose
+Nginx (production build)
+Multi-stage builds
+
+
+📁 Project Structure
+
 spring-boot-app/
 ├── src/                    # Spring Boot backend
-│   └── main/
-│       └── java/com/example/springbootapp/
-├── frontend/               # React frontend
-├── pom.xml                 # Maven configuration
+│   └── main/java/com/example/springbootapp/
+├── frontend/              # React frontend
+├── pom.xml               # Maven configuration
 └── README.md
-```
 
-## Backend (Spring Boot)
 
-### Features
-- REST API with two endpoints:
-  - `GET /` - Returns a welcome message
-  - `GET /api/hello` - Returns an API message
-- CORS configuration to allow frontend connections
-- Built with Spring Boot 3.2.0 and Java 17
+⚙️ How to Run
 
-### Running the Backend
+Backend
 
-1. Navigate to the project root directory:
-   ```bash
-   cd spring-boot-app
-   ```
-
-2. Run the Spring Boot application:
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-   or
-   ```bash
-   mvn spring-boot:run
-   ```
-
-The backend will start on `http://localhost:8080`
-
-## Frontend (React)
-
-### Features
-- Modern React application with hooks
-- Connects to Spring Boot backend APIs
-- Responsive design with modern UI
-- Real-time API testing interface
-
-### Running the Frontend
-
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-
-The frontend will start on `http://localhost:3000`
-
-## Running Both Services
-
-### Option 1: Using Docker Compose (Recommended)
-
-The easiest way to run both services together is using Docker Compose:
-
-```bash
-docker-compose up --build
-```
-
-This will:
-- Build both backend and frontend images
-- Start the Spring Boot backend on `http://localhost:8080`
-- Start the React frontend on `http://localhost:3000`
-- Set up networking between the containers
-
-To run in detached mode:
-```bash
-docker-compose up --build -d
-```
-
-To stop the services:
-```bash
-docker-compose down
-```
-
-### Option 2: Run separately in different terminals
-
-Terminal 1 (Backend):
-```bash
 cd spring-boot-app
 ./mvnw spring-boot:run
-```
 
-Terminal 2 (Frontend):
-```bash
+Runs on: http://localhost:8080
+
+Frontend
+
 cd frontend
+npm install
 npm start
-```
 
-### Option 3: Run backend first, then frontend
+Runs on: http://localhost:3000
 
-1. Start the backend (see above)
-2. In a new terminal, start the frontend (see above)
+Run with Docker (Recommended)
 
-## API Endpoints
+docker-compose up --build
 
-- `GET http://localhost:8080/` - Home endpoint
-- `GET http://localhost:8080/api/hello` - API hello endpoint
 
-## Testing the Connection
+🔗 API Endpoints
 
-1. Start both backend and frontend
-2. Open your browser and go to `http://localhost:3000`
-3. You should see:
-   - A modern interface with two API endpoint cards
-   - Buttons to test each endpoint
-   - Real-time responses from the backend
-   - Connection status indicators
+GET / → Welcome message
+GET /api/hello → Test API response
 
-## Technologies Used
 
-### Backend
-- Spring Boot 3.2.0
-- Java 17
-- Maven
+🧠 Highlights
 
-### Frontend
-- React 18
-- Create React App
-- Modern CSS with Flexbox and Grid
-- Fetch API for HTTP requests
-
-### Containerization
-- Docker
-- Docker Compose
-- Nginx (for serving React app in production)
-- Multi-stage builds for optimized images
-
-## Development Notes
-
-- The backend is configured to allow CORS requests from `http://localhost:3000`
-- The frontend makes HTTP requests to `http://localhost:8080`
-- Both services need to be running simultaneously for full functionality
-- The application uses modern ES6+ features and hooks in React
-
-## Docker Notes
-
-- **Backend Container**: Uses multi-stage build with Maven and OpenJDK 17
-- **Frontend Container**: Uses multi-stage build with Node.js and Nginx
-- **Networking**: Services communicate via Docker network using service names
-- **Ports**: Backend (8080), Frontend (3000)
-- **Volumes**: No persistent volumes configured (can be added if needed)
+Full-stack integration of React and Spring Boot
+Real-world API communication with CORS handling
+AI chatbot integration for improved usability
+Containerized deployment using Docker Compose
+Team-based agile development experience
