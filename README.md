@@ -42,8 +42,7 @@ This project demonstrates end-to-end full-stack development using **Spring Boot 
 
 ### Backend
 - Spring Boot 3.2.0  
-- Java 17  
-- Maven  
+- Java 17    
 - REST APIs  
 - CORS Configuration  
 
@@ -52,7 +51,6 @@ This project demonstrates end-to-end full-stack development using **Spring Boot 
 - JavaScript (ES6+)  
 - Hooks  
 - Fetch API  
-- Responsive UI (Flexbox/Grid)  
 
 ### DevOps / Deployment
 - Docker  
